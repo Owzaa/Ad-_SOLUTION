@@ -1,20 +1,51 @@
-{
-  "name": "adsolutionwebapp",
-  "version": "1.0.0",
-  "description": "Conultation Web App ",
-  "main": "index.js",
-  "devDependencies": {},
+{ "name": "adsolution",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.1.3",
+    "mui": "^0.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router": "^6.3.0",
+    "react-scripts": "^2.1.3",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "ADS Amanzunza Debt Counsel Pty Ltd ",
+  "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Owzaa/adsolution.git"
+    "type": "",
+    "url": ""
   },
-  "author": "Olwethu Nyondo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Owzaa/adsolution/issues"
-  },
-  "homepage": "https://github.com/Owzaa/adsolution#readme"
+  "author": "Olwethu Theo Nyondo",
+  "license": "ISC"
 }
