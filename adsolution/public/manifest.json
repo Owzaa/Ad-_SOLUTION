@@ -10,7 +10,7 @@
     },
 
     {
-      "src": "./img/Logo/adlogo.png",
+      "src": "./img/Logo/adslogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
@@ -18,7 +18,7 @@
 
     {
       "src": "logo512.png",
-      "type": "image/Logo/adlogopng",
+      "type": "image/Logo/adslogopng",
       "sizes": "512x512"
     }
 
